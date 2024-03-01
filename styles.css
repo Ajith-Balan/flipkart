@@ -1,0 +1,29 @@
+.logo{
+    width: 160px;
+    height: 80px;
+}
+#login:hover{
+    background-color: rgb(70, 70, 231);
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    width: 50%;
+}
+
+
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 1%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.slide{
+margin-top: 1%;
+}
