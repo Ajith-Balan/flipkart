@@ -27,3 +27,20 @@
 .slide{
 margin-top: 1%;
 }
+.offers2{
+display: flex;
+margin-top: 1%;
+}
+.off2{
+    margin-left: 8px;
+}
+.topdeals{
+    margin-top: 1%;
+    background-color: white;
+}
+.deals{
+    padding-top: 1%;
+    padding-left: 1%;
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+   
+}
