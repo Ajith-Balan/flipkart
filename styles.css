@@ -2,6 +2,10 @@
     width: 160px;
     height: 80px;
 }
+.navbar{
+    margin: 0;
+    padding: 0;
+}
 #login:hover{
     background-color: rgb(70, 70, 231);
     color: white;
@@ -18,11 +22,13 @@
 
 .items{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: white;
     margin-top: 1%;
-    padding-left: 50px;
-    padding-right: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
 }
 .slide{
 margin-top: 1%;
@@ -85,7 +91,7 @@ margin-top: 1%;
     justify-content: center;
     width: 100%;
     
-    border: 1px solid black;
+    
 }
 .bord img{
     width: 100%;
@@ -107,10 +113,18 @@ margin-top: 1%;
 .footer2{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 .foot2 a{
     text-decoration: none;
     color: white;
     line-height: 3px;
     font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+}
+@media(max-width:780px) {
+    .footer{
+        display: none;
+    }
 }
