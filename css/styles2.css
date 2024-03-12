@@ -1,0 +1,66 @@
+
+.logo{
+    width: 160px;
+    height: 80px;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+   
+}
+#login:hover{
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    width: 50%;
+}
+.na{
+    background-color: rgb(61, 121, 199);
+}
+.item{
+    
+    border-bottom: 1px solid grey;
+}
+
+.items{
+    
+   background-color: white;
+    display: flex;
+    justify-content: center;
+   gap: 3%;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+
+.mobiles{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.filter{
+    background-color: white ;
+    width: 20%;
+    
+}
+.mobile{
+    background-color: white;
+    width: 60%;
+    align-items: center;
+    
+    
+}
+.filters{
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid grey;
+}
+
+
