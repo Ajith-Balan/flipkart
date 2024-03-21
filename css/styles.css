@@ -107,7 +107,7 @@ margin-top: 1%;
     text-decoration: none;
 }
 .foot{
-    background-color: black;
+    background-color: rgb(7, 1, 29);
     padding-top: 2%;
     margin-top: 1%;
 }
@@ -124,6 +124,7 @@ margin-top: 1%;
     line-height: 3px;
     font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
 }
+
 @media(max-width:780px) {
     .footer{
         display: none;
