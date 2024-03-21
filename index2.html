@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles2.css">
-    
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,1,0" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
 </head>
 <body style="background-color: rgb(242, 245, 245);">
     
@@ -20,7 +22,8 @@
             <input class="form-control" type="text"  placeholder="Search for products, Brands and More">
             
           </form>
-
+          <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+          <label for="checkbox">Apple:</label>
           
             <div> 
                
@@ -36,7 +39,8 @@
                   <li><a class="dropdown-item" href="#">Link 2</a></li>
                   <li><a class="dropdown-item" href="#">Link 3</a></li>
                 </ul>
-              </div>
+              </div><input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+              <label for="checkbox">Apple:</label>
 
 
 
@@ -120,11 +124,118 @@
         <div class="container-fluid mobiles">
             <div class="filter" >
                 <div class="filters">filters</div>
+
+
+                <div>
+                  <h5 class="pt-3 bor">CATEGORIES</h5>
+                  <P> < Mobiles & Accessories</P>
+                  <h5 class="mb-3 bor">Mobiles</h5>
+                  <h5>Price</h5>
+                
+                  <div class="row bor ">
+                      <div class="col">
+                        <div class="dropdown">
+                          <button class="btn btn-light border dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Min
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">10000</a></li>
+                            <li><a class="dropdown-item" href="#">20000</a></li>
+                            <li><a class="dropdown-item" href="#">30000</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        to
+                      </div>
+                      <div class="col">
+                        <div class="dropdown">
+                          <button class="btn btn-light border  dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            $30,000
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">15000</a></li>
+                            <li><a class="dropdown-item" href="#">25000</a></li>
+                            <li><a class="dropdown-item" href="#">35000+</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="pt-2 pb-2 bor">
+                    <h5>BRAND</h5>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">Apple:</label>
+                  </div>
+                  <div class="pt-2 pb-2 bor d-flex">
+                    
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox"><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="" width="20%">:</label>
+                  </div>
+
+                  <div class="pt-2 pb-2 bor">
+                    <h5>CUSTOMER RATINGS</h5>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">4<span class="material-symbols-outlined">
+                      star
+                      </span> & Above</label>
+                      <br>
+                      <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                      <label for="checkbox">5<span class="material-symbols-outlined">
+                        star
+                        </span> & Above</label>
+                  </div>
+
+                  <div class="pt-2 pb-2 bor">
+                    <h5>RAM</h5>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">1GB And Below</label>
+                    
+                  </div>
+
+                  <div class="pt-2 pb-2 bor">
+                    <h5>INTERNAL STORAGE</h5>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">256 GB & above</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">128 - 255.9 GB</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">64 - 127.9 GB</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">32 - 63.9 GB</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">16 - 31.9 GB</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">8 - 15.9 GB</label>
+
+                  </div>
+
+                  <div class="pt-2 pb-2 bor">
+                    <h5>BATTERY CAPACITY</h5>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">1000 - 1999 mAh</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">2000 - 2999 mAh</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">3000 - 3999 mAh</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">4000 - 4999 mAh</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox">Less than 1000 mAh</label><br>
+                    
+
+                  </div>
+
+
+
+                </div>
+
+
+
             </div>
             <div class="mobile">
 
                 <p class="text-secondary">Home > mobiles</p>
-                <div class="d-flex">
+                <div class="ip d-flex">
                     <h6>iphone 15</h6> <span class="text-secondary ms-3">Showing 1 - 24 of 9,668 results for "mobiles"</span>
                 </div>
                 
@@ -141,13 +252,13 @@
                         <span>Newest First</span>
                     
                 </div>
-
-                    <div class="container-fluid d-flex iphones">
-                        <div class="iphone">
-                            <img src="./images/mobiles/iphone1.webp" alt="">
-                        </div>
-                        <div>
-                            <p>Apple iPhone 15 (Blue, 128 GB)</p>
+                
+                <div class="row d-flex text-center iph">
+                  <div class="col-sm">
+                    <img src="./images/mobiles/iphone1.webp" alt="" width="50%">
+                  </div>
+                                    <div class="col-sm spec">
+                     <p>Apple iPhone 15 (Blue, 128 GB)</p>
                             <ul>
                                 <li>128 GB Rom</li>
                                 <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
@@ -155,21 +266,26 @@
                                 <li>A16 Bionic Chip, 6 Core Processor Processor</li>
                                 <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h3>$66,999</h3>
-                            <p>79,900</p> <p>16% off</p>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h3>$66,999</h3>
+                            <p class="text-muted text-decoration-line-through">$79,900
+                            <span class="text-success">16% off </span>
+                            </p> 
+                            <P>free delivery by <b>23rd march</b></P>
+                            <P>Up to <b>39,000</b> <br>off on exchange</P>
+                            <b class="text-success">Bank offer</b>
+                  </div>
+
+                </div>
 
 
-
-                    <div class="container-fluid d-flex iphones">
-                        <div class="iphone">
-                            <img src="./images/mobiles/iphone1.webp" alt="">
-                        </div>
-                        <div>
-                            <p>Apple iPhone 15 (Blue, 128 GB)</p>
+                <div class="row d-flex text-center iph">
+                  <div class="col-sm">
+                    <img src="./images/mobiles/iphone1.webp" alt="" width="50%">
+                  </div>
+                                    <div class="col-sm spec">
+                     <p>Apple iPhone 15 (Blue, 128 GB)</p>
                             <ul>
                                 <li>128 GB Rom</li>
                                 <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
@@ -177,21 +293,25 @@
                                 <li>A16 Bionic Chip, 6 Core Processor Processor</li>
                                 <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h3>$66,999</h3>
-                            <p>79,900</p> <p>16% off</p>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h3>$66,999</h3>
+                            <p class="text-muted text-decoration-line-through">$79,900
+                            <span class="text-success">16% off </span>
+                            </p> 
+                            <P>free delivery by <b>23rd march</b></P>
+                            <P>Up to <b>39,000</b> <br>off on exchange</P>
+                            <b class="text-success">Bank offer</b>
+                  </div>
 
-
-
-                    <div class="container-fluid d-flex iphones">
-                        <div class="iphone">
-                            <img src="./images/mobiles/iphone1.webp" alt="">
-                        </div>
-                        <div>
-                            <p>Apple iPhone 15 (Blue, 128 GB)</p>
+                </div>
+                
+                <div class="row d-flex text-center iph">
+                  <div class="col-sm">
+                    <img src="./images/mobiles/iphone1.webp" alt="" width="50%">
+                  </div>
+                                    <div class="col-sm spec">
+                     <p>Apple iPhone 15 (Blue, 128 GB)</p>
                             <ul>
                                 <li>128 GB Rom</li>
                                 <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
@@ -199,23 +319,25 @@
                                 <li>A16 Bionic Chip, 6 Core Processor Processor</li>
                                 <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h3>$66,999</h3>
-                            <p>79,900</p> <p>16% off</p>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h3>$66,999</h3>
+                            <p class="text-muted text-decoration-line-through">$79,900
+                            <span class="text-success">16% off </span>
+                            </p> 
+                            <P>free delivery by <b>23rd march</b></P>
+                            <P>Up to <b>39,000</b> <br>off on exchange</P>
+                            <b class="text-success">Bank offer</b>
+                  </div>
 
+                </div>
 
-
-
-
-                    <div class="container-fluid d-flex iphones">
-                        <div class="iphone">
-                            <img src="./images/mobiles/iphone1.webp" alt="">
-                        </div>
-                        <div>
-                            <p>Apple iPhone 15 (Blue, 128 GB)</p>
+                <div class="row d-flex text-center iph">
+                  <div class="col-sm">
+                    <img src="./images/mobiles/iphone1.webp" alt="" width="50%">
+                  </div>
+                                    <div class="col-sm spec">
+                     <p>Apple iPhone 15 (Blue, 128 GB)</p>
                             <ul>
                                 <li>128 GB Rom</li>
                                 <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
@@ -223,23 +345,25 @@
                                 <li>A16 Bionic Chip, 6 Core Processor Processor</li>
                                 <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h3>$66,999</h3>
-                            <p>79,900</p> <p>16% off</p>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h3>$66,999</h3>
+                            <p class="text-muted text-decoration-line-through">$79,900
+                            <span class="text-success">16% off </span>
+                            </p> 
+                            <P>free delivery by <b>23rd march</b></P>
+                            <P>Up to <b>39,000</b> <br>off on exchange</P>
+                            <b class="text-success">Bank offer</b>
+                  </div>
 
+                </div>
 
-
-
-
-                    <div class="container-fluid d-flex iphones">
-                        <div class="iphone">
-                            <img src="./images/mobiles/iphone1.webp" alt="">
-                        </div>
-                        <div>
-                            <p>Apple iPhone 15 (Blue, 128 GB)</p>
+                <div class="row d-flex text-center iph">
+                  <div class="col-sm">
+                    <img src="./images/mobiles/iphone1.webp" alt="" width="50%">
+                  </div>
+                                    <div class="col-sm spec">
+                     <p>Apple iPhone 15 (Blue, 128 GB)</p>
                             <ul>
                                 <li>128 GB Rom</li>
                                 <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
@@ -247,22 +371,25 @@
                                 <li>A16 Bionic Chip, 6 Core Processor Processor</li>
                                 <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h3>$66,999</h3>
-                            <p>79,900</p> <p>16% off</p>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h3>$66,999</h3>
+                            <p class="text-muted text-decoration-line-through">$79,900
+                            <span class="text-success">16% off </span>
+                            </p> 
+                            <P>free delivery by <b>23rd march</b></P>
+                            <P>Up to <b>39,000</b> <br>off on exchange</P>
+                            <b class="text-success">Bank offer</b>
+                  </div>
 
+                </div>
 
-
-
-                    <div class="container-fluid d-flex iphones">
-                        <div class="iphone">
-                            <img src="./images/mobiles/iphone1.webp" alt="">
-                        </div>
-                        <div>
-                            <p>Apple iPhone 15 (Blue, 128 GB)</p>
+                <div class="row d-flex text-center iph">
+                  <div class="col-sm">
+                    <img src="./images/mobiles/iphone1.webp" alt="" width="50%">
+                  </div>
+                                    <div class="col-sm spec">
+                     <p>Apple iPhone 15 (Blue, 128 GB)</p>
                             <ul>
                                 <li>128 GB Rom</li>
                                 <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
@@ -270,18 +397,18 @@
                                 <li>A16 Bionic Chip, 6 Core Processor Processor</li>
                                 <li>1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories</li>
                             </ul>
-                        </div>
-                        <div>
-                            <h3>$66,999</h3>
-                            <p>79,900</p> <p>16% off</p>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h3>$66,999</h3>
+                            <p class="text-muted text-decoration-line-through">$79,900
+                            <span class="text-success">16% off </span>
+                            </p> 
+                            <P>free delivery by <b>23rd march</b></P>
+                            <P>Up to <b>39,000</b> <br>off on exchange</P>
+                            <b class="text-success">Bank offer</b>
+                  </div>
 
-
-
-
-
-                    
+                </div>
 
             </div>
             
@@ -289,6 +416,71 @@
 
 
 
+
+
+
+        <div class="container-fluid foot">
+          <div class="footer2">
+                <div class="foot2">
+                     <p>ABOUT</p>
+                     <a href=""><p>Contact us</p></a>
+                     <a href=""><p>About us</p></a>
+                     <a href=""><p>careers</p></a>
+                     <a href=""><p>flipkart stories</p></a>
+                     <a href=""><p>press</p></a>
+                     <a href=""><p>corporate information</p></a>
+                </div>
+
+                <div class="foot2">
+                  <p>GROUP COMPANIES</p>
+                  <a href=""><p>Myntra</p></a>
+                  <a href=""><p>Flipkart Wholesale</p></a>
+                  <a href=""><p>Cleartrip</p></a>
+                  <a href=""><p>Shopsy</p></a>
+                
+                </div>
+                <div class="foot2">
+                  <p>HELP</p>
+                  <a href=""><p>Payments</p></a>
+                  <a href=""><p>Shipping</p></a>
+                  <a href=""><p>Cancellation & Returns</p></a>
+                  <a href=""><p>FAQ</p></a>
+                  <a href=""><p>Report Infringement</p></a>
+              
+                </div>
+                <div class="foot2">
+                  <p>CONSUMER POLICY</p>
+                  <a href=""><p>Cancellation & Returns</p></a>
+                  <a href=""><p>Terms Of Use</p></a>
+                  <a href=""><p>Security</p></a>
+                  <a href=""><p>Privacy </p></a>
+                  <a href=""><p>Sitemap</p></a>
+                  <a href=""><p>Grievance Redressal</p></a>
+                  <a href=""><p>EPR Compliance</p></a>
+                </div>
+                <div class="foot2">
+                  <p>Mail Us:</p>
+                  <a href=""><p>Flipkart Internet Private Limited, </p></a>
+                  <a href=""><p> Buildings Alyssa, Begonia & </p></a>
+                  <a href=""><p> Clove Embassy Tech Village, </p></a>
+                  <a href=""><p> Outer Ring Road, Devarabeesanahalli Village, </p></a>
+                  <a href=""><p> Bengaluru, 560103, </p></a>
+                  <a href=""><p> Karnataka, India</p></a>
+                </div>
+                <div class="foot2">
+                  <p>Registered Office Address:</p>
+                  <a href=""><p>Flipkart Internet Private Limited, </p></a>
+                     <a href=""><p> Buildings Alyssa, Begonia & </p></a>
+                     <a href=""><p> Clove Embassy Tech Village, </p></a>
+                     <a href=""><p> Outer Ring Road, Devarabeesanahalli Village, </p></a>
+                     <a href=""><p> Bengaluru, 560103, </p></a>
+                     <a href=""><p>  CIN : U51109KA2012PTC066107  </p></a>
+                     <a href=""><p>  Telephone: <a href="">044-45614700</a> </p></a>
+                </div>
+
+
+          </div>
+    </div>
 
 
 
